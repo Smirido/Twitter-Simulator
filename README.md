@@ -13,28 +13,28 @@ Lines of the tweet file contain a user, followed by greater than, space and then
 
 Your program needs to write console output as follows. For each user / follower (in alphabetical order) output their name on a line. Then for each tweet, emit a line with the following format: <tab>@user: <space>message.<br />
 
-Here is an example. Given user file named user.txt:
-Ward follows Alan
-Alan follows Martin
-Ward follows Martin, Alan
+Here is an example. Given user file named user.txt:<br />
+Ward follows Alan<br />
+Alan follows Martin<br />
+Ward follows Martin, Alan<br />
 
-And given tweet file named tweet.txt:
-Alan> If you have a procedure with 10 parameters, you probably missed some.
-Ward> There are only two hard things in Computer Science: cache invalidation, naming things and off-by-1 errors.
-Alan> Random numbers should not be generated with a method chosen at random.
+And given tweet file named tweet.txt:<br />
+Alan> If you have a procedure with 10 parameters, you probably missed some.<br />
+Ward> There are only two hard things in Computer Science: cache invalidation, naming things and off-by-1 errors.<br />
+Alan> Random numbers should not be generated with a method chosen at random.<br />
 
-So invoking your program with user.txt and tweet.txt as arguments should produce the following console output:
+So invoking your program with user.txt and tweet.txt as arguments should produce the following console output:<br />
 
-Alan
-@Alan: If you have a procedure with 10 parameters, you probably missed some.
-@Alan: Random numbers should not be generated with a method chosen at random.
+Alan<br />
+@Alan: If you have a procedure with 10 parameters, you probably missed some.<br />
+@Alan: Random numbers should not be generated with a method chosen at random.<br />
 
-Martin
+Martin<br />
 
-Ward
-@Alan: If you have a procedure with 10 parameters, you probably missed some.
-@Ward: There are only two hard things in Computer Science: cache invalidation, naming things and off-by-1 errors.
-@Alan: Random numbers should not be generated with a method chosen at random.
+Ward<br />
+@Alan: If you have a procedure with 10 parameters, you probably missed some.<br />
+@Ward: There are only two hard things in Computer Science: cache invalidation, naming things and off-by-1 errors.<br />
+@Alan: Random numbers should not be generated with a method chosen at random.<br />
 
 ----------------------
 List of Files 
